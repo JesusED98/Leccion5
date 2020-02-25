@@ -11,4 +11,4 @@ elif (v >= 45):
     print("Índice de sensación térmica: ",WCI)
 else:
     WCI = 91.4 + (91.4 - t)*(0.0203 * (math.sqrt (v) - 0.474))
-    print("Índice de sensación térmica: ",WCI)
+    print("Índice de sensación térmica: ", "{0:.2F}".format(WCI))
